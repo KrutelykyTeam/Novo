@@ -1,0 +1,52 @@
+@font-face {
+    font-family: ManropeReg;
+    src: url(./Manrope-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+
+
+
+
+body{
+    background-color: #F9F9F9;
+}
+
+.header{
+    background: #ffffff;
+    font-family: ManropeReg;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    height: 88px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1vw;
+}
+.header h1{
+    color: #009661;
+    font-weight: bold;
+    font-size: 1.875rem;
+    margin-right: 1vw;
+}
+.header h2{
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+}
+.header h2 img{
+    margin-left: .3vw;
+    height: .6rem;
+}
