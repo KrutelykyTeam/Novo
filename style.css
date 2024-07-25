@@ -13,7 +13,7 @@ body{
 
 
 body{
-    background-color: #F9F9F9;
+    background-color: #F0F0F0;
 }
 
 .header{
@@ -29,7 +29,7 @@ body{
     -moz-user-select: none;
     height: 88px;
 }
-.header-left{
+.header-left, .header-right{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -42,11 +42,27 @@ body{
     margin-right: 1vw;
 }
 .header h2{
-    font-size: 0.875rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
 }
 .header h2 img{
     margin-left: .3vw;
     height: .6rem;
+}
+.header button{
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    color: #009661;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header button:hover{
+    background: #ececec;
 }
