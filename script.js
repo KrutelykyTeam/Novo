@@ -11,3 +11,6 @@ for (let i = 0; i < offers.length; i++) {
         offerlinks[i].classList.remove('seemore-a')
     })
 }
+
+
+
