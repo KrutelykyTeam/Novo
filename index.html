@@ -36,24 +36,31 @@
 
 
     <section class="main">
-
-        <div class="main-left">
-            <div class="filters">
-                <div class="price">
-                    <div class="filters_preview">
-                        <img src="./img/plus.svg" alt="">
-                        <h3>Цена, $</h3>
-                    </div>
-                    <div class="filters_option">
-                        <div class="flexbox space-between">
-                            <input type="number" name="" id="" placeholder="От">
-                            <input type="number" name="" id="" placeholder="До">
-
-                        </div>
-                    </div>
-                </div>
+        <div class="wrapper">
+            <div class="filters_preview">
+                <img src="./img/plus.svg" alt="">
+                <h3>Цена, $</h3>
             </div>
-        </div>
+            <div class="price-input">
+              <div class="field">
+                <span class="range_label">От</span>
+                <input type="number" class="input-min input_number" value="2500">
+              </div>
+              
+              <div class="field">
+                <span class="range_label">До</span>
+                <input type="number" class="input-max input_number" value="7500">
+              </div>
+            </div>
+            <div class="slider">
+              <div class="progress"></div>
+            </div>
+            <div class="range-input">
+              <input type="range" class="range-min input_range" min="0" max="10000" value="2500" step="100">
+              <input type="range" class="range-max input_range" min="0" max="10000" value="7500" step="100">
+            </div>
+          </div>
+
 
         <div class="main-right">
             <div class="offer">
