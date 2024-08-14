@@ -161,10 +161,11 @@ body{
     margin: 0;
 }
 .wrapper{
-    width: 240px;
-    background: #ffffff;
-    padding: 10px 0;
-  }
+    width: 25%;
+    background-color: #fff;
+    border-radius: .5em;
+    padding: 10px 30px;
+}
 
  
   .price-input{
@@ -175,15 +176,18 @@ body{
     font-size: 14px;
     color:  #8B959E;
   }
-    .field{
+.field{
     display: flex;
     width: 100%;
-    height: 22px;
     align-items: center;
-    border: #e9e9e9 1px solid;
-    padding: 12px;
+    border: #e9e9e9 1px solid;  
+    border-radius: 5px;
     margin-bottom: 24px;
-  }
+    height: 7vh;
+    padding: 1.5vh;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+}
   .input_number{
     width: 100%;
     height: 100%;
@@ -212,6 +216,7 @@ body{
   }
   .range-input{
     position: relative;
+    margin: auto;
   }
   .input_range{
     position: absolute;
