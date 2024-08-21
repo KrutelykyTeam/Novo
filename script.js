@@ -56,3 +56,7 @@ rangeInput.forEach(input => {
 });
 
 
+const filter_buttons = document.querySelectorAll('.filters_preview');
+console.log(filter_buttons)
+const filter_options = document.querySelectorAll('.filters_inputarea');
+console.log(filter_options)
