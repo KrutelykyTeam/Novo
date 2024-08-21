@@ -23,8 +23,8 @@ body{
 .header{
     background: #ffffff;
     font-family: ManropeReg;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,8 +82,8 @@ body{
 
 .navigation{
     font-family: ManropeReg;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
     display: flex;
     align-items: center;
     user-select: none;
@@ -114,9 +114,9 @@ body{
 
 
 .main{
-    padding: 32px;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding: 30px;
+    padding-left: 8vw;
+    padding-right: 8vw;
     min-height: calc(100vh - 120px);
     position: relative;
     display: flex;
@@ -124,7 +124,7 @@ body{
     font-family: ManropeReg;
 }
 .main-left{
-    width: 25%;
+    width: 40%;
 }
 .filters{
     background: #ffffff;
@@ -161,11 +161,96 @@ body{
     margin: 0;
 }
 .wrapper{
-    width: 25%;
+    width: 30%;
     background-color: #fff;
     border-radius: .5em;
     padding: 10px 30px;
 }
+.filters_inputarea{
+    margin-bottom: 30px;
+}
+hr{
+    border: 1px solid #E8E9E8;
+}
+
+.filters_inputarea label {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    user-select: none;
+    color: #000;
+}
+
+.filters_inputarea input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.filters_inputarea .checkbox-custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.filters_inputarea input[type="checkbox"]:checked + .checkbox-custom {
+    background-color: #4CAF50;
+}
+
+.filters_inputarea input[type="checkbox"]:checked + .checkbox-custom:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 6px;
+    top: 1px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.filters_inputarea input[type="checkbox"]:checked + .checkbox-custom + span {
+    color: #4CAF50;
+}
+
+
+
+.type{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: ManropeReg;
+    font-weight: 600;
+    color: #7e7e7e;
+    border-radius: .2em;
+    border: 2px solid #c5c5c5;
+}
+.type:focus{
+    outline: none;
+    border: 2px solid #009661;
+    color: #008053;
+}
+
+.type option{
+    background-color: #e7e7e7;
+    color: #313131;
+    border: none;
+}
+.type option:checked{
+    background-color: #009661;
+    color: #fff;
+}
+
 
  
   .price-input{
@@ -243,7 +328,7 @@ body{
     height: 22px;
 }
 .main-right{
-    width: 800px;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -251,7 +336,7 @@ body{
     gap: 20px;
 }
 .offer{
-    width: 350px;
+    width: 43%;
     height: 400px;
     padding: 15px;
     background: #ffffff;
